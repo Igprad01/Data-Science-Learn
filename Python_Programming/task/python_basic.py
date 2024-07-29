@@ -44,3 +44,12 @@ modulus = c%d
 
 print("Hasil modulus",modulus)
 
+
+#modulus if mid praktek
+
+angka=5
+
+if(angka%2==0):
+    print("angka termasuk bilangan genap")
+else:
+    print("angka termasuk bilangan ganjil")

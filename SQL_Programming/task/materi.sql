@@ -16,3 +16,11 @@ SELECT harga, nama_produk FROM ms_produk limit 5;
 -- meenghilangkan duplikasi data
 SELECT DISTINCT nama_customer,alamat FROM ms_pelanggan;
 
+-- prefik sql pada nama kolom
+SELECT ms_produk. kode_produk FROM ms_produk
+
+-- mengubah nama kolom 
+SELECT no_urut AS nomor, nama_produk AS nama FROM ms_produk
+
+-- Mengubah nama kolom tanpa AS 
+SELECT no_urut nomor, nama_produk nama FROM ms_produk;

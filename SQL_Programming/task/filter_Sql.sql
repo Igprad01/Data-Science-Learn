@@ -8,3 +8,4 @@ SELECT * FROM ms_produk WHERE nama_produk = 'Flashdisk DQLab 64 GB' OR nama_prod
 
 -- perintah where > 
 SELECT * FROM ms_produk WHERE harga > 50000
+SELECT * FROM ms_produk WHERE nama_produk = 'gantungan Kunci DQLab' AND harga < 50000
